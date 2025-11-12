@@ -1,1 +1,18 @@
 [2025-11-13 00:00:00] Application exiting
+[2025-11-13 00:21:22] Application started
+[2025-11-13 00:21:36] System enabled
+[2025-11-13 00:21:55] Position updated: [0.0, 0.0, 0.0], [10.0, 0.0, 0.0]
+[2025-11-13 00:22:07] Position updated: [0.0, 0.0, 0.0], [0.0, 0.0, 0.0]
+[2025-11-13 00:22:13] Moved to home position
+[2025-11-13 00:22:14] Moved to base position
+[2025-11-13 00:22:20] Position updated: [0.0, 0.0, 220.0], [0.0, 0.0, 0.0]
+[2025-11-13 00:22:21] Moved to home position
+[2025-11-13 00:22:25] Moved to base position
+[2025-11-13 00:22:31] EMERGENCY STOP
+[2025-11-13 00:22:33] Emergency reset
+[2025-11-13 00:23:04] Successful authentication for Settings Access
+[2025-11-13 00:23:04] Settings window opened
+[2025-11-13 00:23:12] Successful authentication for Maintenance Access
+[2025-11-13 00:23:12] Maintenance window opened
+[2025-11-13 00:24:33] EMERGENCY STOP
+[2025-11-13 00:24:34] Application exiting
