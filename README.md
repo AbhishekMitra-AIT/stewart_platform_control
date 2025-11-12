@@ -3,7 +3,7 @@
 A professional 6-DOF (Degrees of Freedom) motion platform control system with real-time kinematics, 3D visualization, and advanced motion profile execution.
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+![License](https://img.shields.io/badge/license-GNU-green)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
 
 ## 🎯 Project Overview
@@ -63,50 +63,15 @@ This project implements a comprehensive GUI application for controlling a Stewar
 ```
 stewart-platform-control/
 │
-├── src/
-│   ├── __init__.py
-│   ├── main.py                      # Application entry point
-│   ├── gui/
-│   │   ├── __init__.py
-│   │   ├── main_window.py           # Main GUI application
-│   │   ├── dialogs.py               # Settings & maintenance dialogs
-│   │   └── widgets.py               # Custom UI components
-│   │
-│   ├── core/
-│   │   ├── __init__.py
-│   │   ├── kinematics.py            # Stewart platform kinematics
-│   │   ├── hardware_interface.py   # Hardware abstraction layer
-│   │   └── config.py                # Configuration management
-│   │
-│   └── utils/
-│       ├── __init__.py
-│       ├── logger.py                # Logging utilities
-│       └── validators.py            # Input validation
-│
-├── config/
-│   ├── config.ini                   # System configuration
-│   └── platform_params.json         # Platform geometry parameters
-│
-├── data/
-│   └── sample_motion_profile.csv    # Example CSV motion profile
-│
 ├── logs/                            # Log files (auto-generated)
-│
-├── docs/
-│   ├── API.md                       # API documentation
-│   ├── USER_GUIDE.md                # User manual
-│   └── images/                      # Screenshots and diagrams
-│
-├── tests/
-│   ├── test_kinematics.py
-│   ├── test_validators.py
-│   └── test_hardware.py
-│
-├── requirements.txt                 # Python dependencies
-├── setup.py                         # Package setup
+├── screenshots  
+├── venv/
 ├── .gitignore
+├── requirements.txt                 # Python dependencies
+├── gui.py                           # main application
 ├── LICENSE
 └── README.md
+├── requirements.txt
 ```
 
 ## 🚀 Installation
@@ -118,8 +83,8 @@ stewart-platform-control/
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/yourusername/stewart-platform-control.git
-cd stewart-platform-control
+git clone https://github.com/AbhishekMitra-AIT/stewart_platform_control
+cd stewart_platform_control
 ```
 
 ### Step 2: Create Virtual Environment (Recommended)
@@ -146,11 +111,11 @@ python src/main.py
 ## 📦 Dependencies
 
 ```
-customtkinter>=5.2.0        # Modern GUI framework
-matplotlib>=3.7.0           # 3D visualization
-numpy>=1.24.0               # Numerical computations
-pandas>=2.0.0               # CSV data handling
-Pillow>=10.0.0              # Image processing
+customtkinter    # Modern GUI framework
+matplotlib       # 3D visualization
+numpy            # Numerical computations
+pandas           # CSV data handling
+Pillow           # Image processing
 ```
 
 ## 🎮 Usage
@@ -200,7 +165,7 @@ surge,sway,heave,roll,pitch,yaw,velocity_x,velocity_y,velocity_z
 | Linear Velocity | ±700 | mm/s |
 | Angular Velocity | ±35 | deg/s |
 
-## 🔧 Configuration
+<!-- ## 🔧 Configuration
 
 Edit `config/config.ini` to customize:
 
@@ -217,11 +182,11 @@ port = 502
 [Safety]
 max_velocity = 700
 max_acceleration = 6
-```
+``` -->
 
 **Note:** Password-protected settings dialog available in GUI (default password: "password")
 
-## 📸 Screenshots
+<!-- ## 📸 Screenshots
 
 ### Main Control Interface
 ![Main Interface](docs/images/main_interface.png)
@@ -237,7 +202,7 @@ max_acceleration = 6
 
 ### System Maintenance Panel
 ![Maintenance](docs/images/maintenance_panel.png)
-*Advanced diagnostics and calibration tools*
+*Advanced diagnostics and calibration tools* -->
 
 ## 🛠️ Technical Stack
 
@@ -261,7 +226,7 @@ max_acceleration = 6
 - **Rotation Matrices** - 3D spatial transformations (Euler angles)
 - **Trajectory Planning** - Waypoint interpolation and velocity profiling
 
-## 🧪 Testing
+<!-- ## 🧪 Testing
 
 Run unit tests:
 ```bash
@@ -271,7 +236,7 @@ python -m pytest tests/
 Run specific test file:
 ```bash
 python -m pytest tests/test_kinematics.py -v
-```
+``` -->
 
 ## 🤝 Contributing
 
@@ -295,7 +260,7 @@ This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the [LICENSE
 
 ## 👤 Author
 
-**Your Name**
+**Abhishek Mitra**
 - GitHub: [@AbhishekMitra-AIT](https://github.com/AbhishekMitra-AIT)
 - LinkedIn: [Abhishek Mitra](https://www.linkedin.com/in/abhishekmitra03/)
 - Email: abhishekmitra91@gmail.com
